@@ -1,0 +1,10 @@
+{
+  "all_checks_passed": true,
+  "bootstrap_rows": 288,
+  "checks": 10,
+  "checks_passed": 10,
+  "direct_recalculation_max_ic_difference": 2.7755575615628914e-17,
+  "direct_recalculation_max_spread_difference": 0.0,
+  "direct_recalculation_passed": true,
+  "factor_regression_rows": 18
+}

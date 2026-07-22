@@ -1,0 +1,11 @@
+check,passed,value,requirement
+composite keys unique,True,0,zero duplicates
+global population floor,True,1526,>= 1000
+US population floor,True,381,>= 300
+inverse redundancy finite,True,396,all 396 rows
+group allocation sums,True,1.1102230246251565e-16,maximum error < 1e-10
+anonymised target net,True,1.5265566588595902e-16,maximum absolute net < 1e-10
+anonymised target gross,True,4.440892098500626e-16,maximum gross error from 2 < 1e-10
+exposure reconciliation,True,3.3306690738754696e-16,maximum error < 1e-10
+trade cancellation bounds,True,"[0.6452083851620021, 0.8206572115881525]","within [0, 1]"
+cost monotonicity,True,1992,all finite rows non-increasing

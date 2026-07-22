@@ -1,0 +1,13 @@
+{
+  "all_global_signal_dates_present": 103,
+  "composite_rows": 2016,
+  "external_matched_signals": 112,
+  "global_population_securities": 3000,
+  "global_standalone_rows": 11536,
+  "implementation_rows": 102,
+  "jobs_completed": 7,
+  "parallel_processes": 1,
+  "us_domestic_securities": 388,
+  "us_eligible_signals": 107,
+  "us_standalone_rows": 10807
+}

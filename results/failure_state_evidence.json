@@ -1,0 +1,6 @@
+{
+  "all_values_finite_where_required": true,
+  "conditions": "Worst decile of the named equal-signal composite within its stated sample",
+  "regime_labels_used": false,
+  "rows": 9
+}

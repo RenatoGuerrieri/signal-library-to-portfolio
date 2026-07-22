@@ -1,0 +1,24 @@
+{
+  "files": {
+    "F-F_Momentum_Factor_CSV.zip": {
+      "bytes": 5539,
+      "sha256": "ddf2d51164f44ab1950837ab8469885e03e186a1f86c96f5297623b8b3c5c604"
+    },
+    "F-F_Research_Data_5_Factors_2x3_CSV.zip": {
+      "bytes": 11532,
+      "sha256": "ab442f3468d3079bf2d793f8c4a4d175aeda1a1cb289f5549f2a23c6bfd88eb4"
+    },
+    "ff5\\F-F_Research_Data_5_Factors_2x3.csv": {
+      "bytes": 49883,
+      "sha256": "f8f536f6f2983b164ab9c862ac7346924fd0384b3744a3917d2979cc09f1ffb3"
+    },
+    "mom\\F-F_Momentum_Factor.CSV": {
+      "bytes": 21317,
+      "sha256": "2f83217efe88c4bfa496b707216c184290e85ffe00b85c7903d30fa444e507c3"
+    }
+  },
+  "five_factor_url": "https://mba.tuck.dartmouth.edu/pages/faculty/ken.french/ftp_202412/F-F_Research_Data_5_Factors_2x3_CSV.zip",
+  "momentum_url": "https://mba.tuck.dartmouth.edu/pages/faculty/ken.french/ftp_202412/F-F_Momentum_Factor_CSV.zip",
+  "official_page": "https://mba.tuck.dartmouth.edu/pages/faculty/ken.french/data_library_202412_archive.html",
+  "release": "December 2024 CRSP legacy-format archive"
+}

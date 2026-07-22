@@ -1,0 +1,15 @@
+path,format,replacements
+composite_block_bootstrap.csv,csv,72
+evidence_long_short_attribution.csv,csv,6
+local_allocation_weights.csv,csv,1716
+local_anonymised_weights.csv,csv,187186
+local_composite_common_window.csv,csv,14
+local_composite_common_window_bootstrap.csv,csv,14
+local_composite_date.csv,csv,396
+local_composite_summary.csv,csv,6
+local_composite_temporal.csv,csv,15
+local_exposures.csv,csv,3370
+local_allocation_weights.parquet,parquet,1716
+local_anonymised_weights.parquet,parquet,187186
+local_composite_date.parquet,parquet,396
+local_exposures.parquet,parquet,3370

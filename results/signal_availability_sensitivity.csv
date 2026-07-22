@@ -1,0 +1,3 @@
+construction,characteristics,dates,mean_ic,ic_hac_t,mean_gross_spread,cost_dates,mean_turnover_two_legs,mean_net_spread_25bps
+Reported composite with characteristics available by date,106,103,0.049138248399426335,5.359016171803356,0.009087185948563071,102,0.8546931447988332,0.007037974308494362
+Constant 103-date characteristic set,67,103,0.042872300393201224,4.728037605035602,0.008883618187606893,102,0.9254336781858283,0.006633454760655663

@@ -1,0 +1,8 @@
+{
+  "date_matrices_available": 121,
+  "date_matrices_used_in_psd_average": 103,
+  "primary_aggregate_negative_magnitude": 0.0009811778442070332,
+  "primary_negative_eigenvalues": 1,
+  "primary_rank_stable_between_36_and_39": true,
+  "rows": 9
+}

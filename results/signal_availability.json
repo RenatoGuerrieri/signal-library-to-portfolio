@@ -1,0 +1,14 @@
+{
+  "balanced_characteristics": 67,
+  "balanced_definition": "Deduplicated characteristics with at least 1,000 scored securities on every one of the 103 reported fixed-panel return dates",
+  "comparison_active_at_least_1000_max": 112,
+  "comparison_active_at_least_1000_median": 112.0,
+  "comparison_active_at_least_1000_min": 74,
+  "comparison_dates": 103,
+  "maximum_active_any_score": 112,
+  "median_active_any_score": 112.0,
+  "minimum_active_any_score": 80,
+  "selection_limitation": "The constant set is selected using full-sample coverage and is a membership sensitivity, not a point-in-time portfolio rule.",
+  "source_characteristics": 112,
+  "source_dates": 121
+}

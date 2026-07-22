@@ -1,0 +1,123 @@
+{
+  "audit_status": {
+    "ok": 3000
+  },
+  "clean_us_securities": 388,
+  "currency_counts": {
+    "ARS": 14,
+    "AUD": 2,
+    "BRL": 20,
+    "CAD": 18,
+    "CHF": 3,
+    "CLP": 25,
+    "CNY": 903,
+    "COP": 3,
+    "DKK": 7,
+    "EUR": 10,
+    "GBp": 184,
+    "HKD": 72,
+    "HUF": 4,
+    "IDR": 59,
+    "ILA": 45,
+    "INR": 98,
+    "JPY": 599,
+    "KRW": 169,
+    "KWD": 3,
+    "KWF": 4,
+    "MXN": 9,
+    "NOK": 6,
+    "PLN": 2,
+    "SAR": 1,
+    "SEK": 21,
+    "SGD": 1,
+    "THB": 31,
+    "TRY": 39,
+    "TWD": 169,
+    "USD": 433,
+    "VND": 1,
+    "ZAc": 45
+  },
+  "gbp_return_126d": {
+    "absolute_above_100pct": 6451,
+    "absolute_above_300pct": 540,
+    "maximum": 2828467958961.2993,
+    "minimum": -0.9999999999998905,
+    "missing": 18026,
+    "non_missing": 344974
+  },
+  "gbp_return_21d": {
+    "absolute_above_100pct": 642,
+    "absolute_above_300pct": 139,
+    "maximum": 8.004998961171227e+16,
+    "minimum": -0.9999999999999999,
+    "missing": 33,
+    "non_missing": 362967
+  },
+  "gbp_return_252d": {
+    "absolute_above_100pct": 17652,
+    "absolute_above_300pct": 1963,
+    "maximum": 1.4159857699250192e+16,
+    "minimum": -0.9999999999997994,
+    "missing": 36024,
+    "non_missing": 326976
+  },
+  "gbp_return_63d": {
+    "absolute_above_100pct": 2228,
+    "absolute_above_300pct": 236,
+    "maximum": 1.2597871356621628e+16,
+    "minimum": -0.9999999999999912,
+    "missing": 9021,
+    "non_missing": 353979
+  },
+  "gbp_return_clean_126d": {
+    "absolute_above_100pct": 6363,
+    "absolute_above_300pct": 458,
+    "maximum": 64.28540672158447,
+    "minimum": -0.9104859646369201,
+    "missing": 18398,
+    "non_missing": 344602
+  },
+  "gbp_return_clean_21d": {
+    "absolute_above_100pct": 594,
+    "absolute_above_300pct": 91,
+    "maximum": 8.29189408446463,
+    "minimum": -0.8380699221402635,
+    "missing": 200,
+    "non_missing": 362800
+  },
+  "gbp_return_clean_252d": {
+    "absolute_above_100pct": 17531,
+    "absolute_above_300pct": 1847,
+    "maximum": 108.23255603759942,
+    "minimum": -0.9764392311452709,
+    "missing": 36575,
+    "non_missing": 326425
+  },
+  "gbp_return_clean_63d": {
+    "absolute_above_100pct": 2161,
+    "absolute_above_300pct": 173,
+    "maximum": 26.287765025728277,
+    "minimum": -0.9027358214560135,
+    "missing": 9286,
+    "non_missing": 353714
+  },
+  "rows": 363000,
+  "scale_break_126d": {
+    "affected_securities": 33,
+    "excluded_windows": 372
+  },
+  "scale_break_21d": {
+    "affected_securities": 33,
+    "excluded_windows": 167
+  },
+  "scale_break_252d": {
+    "affected_securities": 33,
+    "excluded_windows": 551
+  },
+  "scale_break_63d": {
+    "affected_securities": 33,
+    "excluded_windows": 265
+  },
+  "securities": 3000,
+  "signal_dates": 121
+}

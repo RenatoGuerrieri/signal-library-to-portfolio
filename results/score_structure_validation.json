@@ -1,0 +1,9 @@
+{
+  "all_pair_bottom_overlaps_estimable": false,
+  "all_pair_correlations_estimable": true,
+  "all_pair_top_overlaps_estimable": false,
+  "date_count": 121,
+  "exact_duplicate_pairs": 6,
+  "pair_count": 6216,
+  "signal_count": 112
+}

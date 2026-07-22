@@ -1,0 +1,36 @@
+{
+  "mechanical_independence_decile_jaccard": 0.052631578947368425,
+  "permutations_per_test": 2000,
+  "random_seed": 20260721,
+  "tests": [
+    {
+      "above_null_97_5_percentile": true,
+      "evidence": "Public predictor returns",
+      "fixed_count_expected_jaccard": null,
+      "measure": "Median pairwise overlap of predictor-specific worst return deciles",
+      "mechanical_independence_decile_jaccard": 0.052631578947368425,
+      "null_2_5_percentile": 0.05,
+      "null_97_5_percentile": 0.05,
+      "null_mean_median_jaccard": 0.05000000000000001,
+      "null_median_jaccard": 0.05,
+      "observed_median_jaccard": 0.09090909090909091,
+      "one_sided_p_value": 0.0004997501249375312,
+      "permutations": 2000
+    },
+    {
+      "above_null_97_5_percentile": true,
+      "evidence": "Public predictor returns",
+      "fixed_count_expected_jaccard": null,
+      "measure": "Median pairwise overlap of predictor-specific worst drawdown deciles",
+      "mechanical_independence_decile_jaccard": 0.052631578947368425,
+      "null_2_5_percentile": 0.05,
+      "null_97_5_percentile": 0.05,
+      "null_mean_median_jaccard": 0.05000000000000001,
+      "null_median_jaccard": 0.05,
+      "observed_median_jaccard": 0.06329113924050633,
+      "one_sided_p_value": 0.0004997501249375312,
+      "permutations": 2000
+    }
+  ],
+  "workers": 4
+}
