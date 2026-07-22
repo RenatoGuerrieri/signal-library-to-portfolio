@@ -21,3 +21,7 @@ The aggregate files are sufficient to inspect the reported tables, figures and q
 ## Verification
 
 `public_manifest.csv` records the size and SHA-256 hash of every distributed file. The challenge and manuscript validation outputs are included in `results/`.
+
+## Immutable release
+
+The evidence set submitted with the paper is preserved as [version 1.0.0](https://github.com/RenatoGuerrieri/signal-library-to-portfolio/releases/tag/v1.0.0). The release record identifies the exact target commit and provides the submitted PDF and reproducibility archive as release assets.

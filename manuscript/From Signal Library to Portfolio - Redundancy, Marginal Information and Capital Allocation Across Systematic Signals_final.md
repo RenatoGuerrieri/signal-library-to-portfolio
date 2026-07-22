@@ -13,9 +13,9 @@ July 2026
 
 This paper asks how a portfolio manager should distinguish a large signal catalogue from independent information, and whether an individually credible characteristic deserves capital. The central distinction is between evidence for a signal in isolation and its marginal contribution to the portfolio that would use it.
 
-Evidence comes from two sources. A local reconstruction of the Open Source Cross-Sectional Asset Pricing catalogue contains 164 characteristics, 3,000 equities and 31.9 million observations between June 2016 and June 2026; a fixed coverage rule retains 112 characteristics. The public Open Asset Pricing archive supplies 112 US long-short predictor returns from January 1990 to December 2024. The local panel permits security-level tests of scores, overlap, marginal information and trading, while the public archive provides a longer comparison of realised predictor portfolios.
+Evidence comes from two sources. A local reconstruction of the Open Source Cross-Sectional Asset Pricing catalogue contains 164 characteristics, 3,000 equities and 31.9 million observations between June 2016 and June 2026; a fixed coverage rule retains 112 characteristics. The public Open Asset Pricing archive supplies 112 US long-short predictor returns from January 1990 to December 2024. The local panel permits security-level tests of scores, overlap, marginal information and trading, while the public archive provides a longer comparison of historical predictor portfolio series.
 
-The 112 local characteristics have a participation ratio effective rank of 37.05. Alternative matrix constructions place it between 36.34 and 38.10. Six exact relationships are found in the local score histories, and 106 representatives remain after the local duplicate audit. The number with any score ranges from 80 to 112 through time. A constant set of 67 representatives remains positive but somewhat weaker. Standalone evidence is incomplete: 75 characteristics have positive mean 21-session rank information in the fixed panel translated into sterling, but 19 of the 106 representatives are positive alone and negative when assessed against the full composite.
+The 112 local characteristics have a participation ratio effective rank of 37.05; alternative matrix constructions place it between 36.34 and 38.10. Six exact score-history relationships leave 106 representatives. Active coverage ranges from 80 to 112, and a constant set of 67 remains positive but weaker. Standalone evidence is incomplete: 75 characteristics have positive mean 21-session rank information in sterling, while 19 representatives are positive alone and negative against the full composite.
 
 Return evidence depends materially on the population. The local equal signal composite is positive in the fixed panel in sterling, while the domestic US reconstruction does not confirm the result. The 112 public predictor portfolios are positive jointly over 1990-2024, but the evidence is weaker in the more recent period.
 
@@ -503,7 +503,7 @@ A six-month block bootstrap gives a 95 per cent interval of 0.0292 to 0.0677 for
 
 The result is not explained solely by the changing number of available characteristics. A constant set of 67 representatives, each with at least 1,000 scores on every one of the 103 return dates, has a mean information coefficient of 0.0429 with a HAC t-statistic of 4.73. Its gross spread is 0.888 per cent and its result after the 25 basis point charge is 0.663 per cent. Both are below the reported composite, whose corresponding values are 0.909 and 0.704 per cent. Turnover is also higher at 92.5 per cent rather than 85.5 per cent. The sensitivity therefore supports the sign of the result but not the claim that membership changes are irrelevant.
 
-### Table 7A. Sensitivity with a constant characteristic set
+### Table 7. Sensitivity with a constant characteristic set
 
 | Construction | Characteristics | Dates | Mean IC | HAC t | Gross spread | Two-leg turnover | Spread after 25 bp |
 | --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
@@ -522,7 +522,7 @@ Over the 67 shared information dates, equal signal weights produce a mean coeffi
 
 The cost comparison is less decisive. Over 66 shared observations, the mean spread after 25 basis points is 0.527 per cent for equal signal, 0.326 per cent for equal group, 0.284 per cent for inverse redundancy and 0.254 per cent for the trailing rule. Every six-month block bootstrap interval includes zero.
 
-### Table 7. Allocation comparison over shared dates
+### Table 8. Allocation comparison over shared dates
 
 | Population | Allocation | IC dates | Mean IC | HAC t | Cost dates | Spread after 25 bp | Six-month block 95% interval |
 | --- | --- | ---: | ---: | ---: | ---: | ---: | --- |
@@ -545,7 +545,7 @@ Over its full 101-date history, the domestic US deduplicated equal signal compos
 
 The temporal evidence is also difficult for a broad claim. In the domestic US subset, equal signal weights have a mean rank information coefficient of 0.0220 in 2016-2019, -0.0013 in 2020-2022 and -0.0054 in 2023-2026. Mean spreads over the same periods are 0.110, -0.928 and -0.809 per cent. The fixed panel remains positive in each period.
 
-### Table 8. Equal signal evidence through time
+### Table 9. Equal signal evidence through time
 
 | Population | Period | Dates | Mean IC | Mean gross spread | Positive IC dates |
 | --- | --- | ---: | ---: | ---: | ---: |
@@ -582,7 +582,7 @@ The public Open Asset Pricing returns change the interpretation of the weak loca
 
 The equal signal composite across all 112 public portfolios averages 0.448 per cent gross per month over 420 months, with a HAC t-statistic of 9.52. The 106-series local-map sensitivity averages 0.450 per cent. The equal group composite averages 0.370 per cent. In the recent 108-month period, the corresponding means are 0.218, 0.216 and 0.095 per cent.
 
-### Table 9. Public Open Asset Pricing composite evidence
+### Table 10. Public Open Asset Pricing composite evidence
 
 | Period | Composite | Months | Mean monthly gross return | HAC t | Monthly volatility | Annualised ratio of mean to volatility |
 | --- | --- | ---: | ---: | ---: | ---: | ---: |
@@ -605,7 +605,7 @@ The public result is not confined to the published long-short series. This test 
 
 The spread between equal and value weights is economically meaningful. Smaller securities contribute more under equal weighting, and the investability screens reduce the mean. The joint result persists, but portfolio construction affects its magnitude in the expected direction.
 
-### Table 10. Public portfolio-construction robustness, 1990-2024
+### Table 11. Public portfolio-construction robustness, 1990-2024
 
 | Construction | Matched signals | Mean monthly gross return | HAC t | Correlation with 106-series published baseline |
 | --- | ---: | ---: | ---: | ---: |
@@ -623,7 +623,7 @@ Against the Fama-French five factors and momentum, the all-112 public composite 
 
 The equal group intercepts are 4.84 and 2.15 per cent. The market coefficients are mildly negative, and the composite has positive momentum and investment loadings in the long sample. The factor model explains a material part of variation without absorbing the historical mean.
 
-### Table 11. Public factor regression diagnostic
+### Table 12. Public factor regression diagnostic
 
 | Period | Composite | Months | Simulated regression intercept, annualised | HAC t | Adjusted R-squared |
 | --- | --- | ---: | ---: | ---: | ---: |
@@ -646,9 +646,9 @@ During the local worst decile, the mean fraction of groups with negative informa
 
 Conditioning on a weak composite mechanically favours common negative observations, so those comparisons are descriptive rather than causal. The component-specific tails are less concentrated. Median pairwise overlap between local groups' own worst information deciles is 2.4 per cent. Across the public predictors, median overlap is 9.1 per cent for each portfolio's own worst return decile and 6.3 per cent for its own worst drawdown decile.
 
-Two independent sets that each contain 10 per cent of the observations have a mechanical Jaccard overlap of 5.3 per cent. A test using 2,000 permutations preserves each portfolio's number of worst observations and pattern of missing observations while reassigning their dates independently. The median overlap under the null is 5.0 per cent in every draw. The 9.1 per cent return overlap is therefore materially above chance. The 6.3 per cent drawdown overlap is also above every permuted median, but its economic distance from the 5.3 per cent benchmark is modest. Common deterioration is present, but the evidence does not establish that failure risk is either fully shared or reliably diversified.
+Two independent sets that each contain 10 per cent of the observations have a mechanical Jaccard overlap of 5.3 per cent. A test using 2,000 permutations preserves each portfolio's number of worst observations and pattern of missing observations while reassigning their dates independently. At one-decimal precision, the median overlap under the null is 5.0 per cent in every permutation. The 9.1 per cent return overlap is therefore materially above chance. The 6.3 per cent drawdown overlap is also above every permuted median, but its economic distance from the 5.3 per cent benchmark is modest. Common deterioration is present, but the evidence does not establish that failure risk is either fully shared or reliably diversified.
 
-### Table 11A. Mechanically defined deterioration
+### Table 13A. Mechanically defined deterioration
 
 | Evidence | Measure | Full sample | Composite worst decile |
 | --- | --- | ---: | ---: |
@@ -660,7 +660,7 @@ Two independent sets that each contain 10 per cent of the observations have a me
 | Public predictor returns | Median overlap of component-specific worst return deciles | 9.1% | Not applicable |
 | Public predictor returns | Median overlap of component-specific worst drawdown deciles | 6.3% | Not applicable |
 
-### Table 11B. Public deterioration overlap relative to chance
+### Table 13B. Public deterioration overlap relative to chance
 
 | Tail definition | Observed median overlap | Mechanical independence benchmark | Permutation median | Permutation 95% range | One-sided permutation p |
 | --- | ---: | ---: | ---: | ---: | ---: |
@@ -687,7 +687,7 @@ The equal capital sleeve test contains 102 rebalance changes. Mean weighted aver
 
 The top ten required trades account for 1.82 per cent of aggregate trading on average and 4.32 per cent at the maximum. Under this mechanical construction, trading is not concentrated in a small number of names. The result does not include liquidity, impact or borrow.
 
-### Table 12. Equal capital sleeve aggregation
+### Table 14. Equal capital sleeve aggregation
 
 | Diagnostic | Mean | Median | Minimum | Maximum |
 | --- | ---: | ---: | ---: | ---: |
@@ -1056,7 +1056,7 @@ For the broad sample, median top quintile Jaccard overlap is 0.1083 and the 90th
 | Domestic US subset | Equal signal | 101 | 0.0056 | 0.46 | -0.517% | -0.295% | 64.4% | -0.680% |
 | Domestic US subset | Equal group | 101 | 0.0039 | 0.32 | -0.471% | -0.262% | 63.8% | -0.625% |
 
-The adaptive rules are omitted from this full history table because they begin later. Their comparable results appear in Table 7.
+The adaptive rules are omitted from this full history table because they begin later. Their comparable results appear in Table 8.
 
 ### C2. Full history block bootstrap evidence
 
