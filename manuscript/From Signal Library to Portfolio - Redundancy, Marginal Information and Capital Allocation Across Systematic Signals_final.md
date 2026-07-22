@@ -648,7 +648,9 @@ Conditioning on a weak composite mechanically favours common negative observatio
 
 Two independent sets that each contain 10 per cent of the observations have a mechanical Jaccard overlap of 5.3 per cent. A test using 2,000 permutations preserves each portfolio's number of worst observations and pattern of missing observations while reassigning their dates independently. At one-decimal precision, the median overlap under the null is 5.0 per cent in every permutation. The 9.1 per cent return overlap is therefore materially above chance. The 6.3 per cent drawdown overlap is also above every permuted median, but its economic distance from the 5.3 per cent benchmark is modest. Common deterioration is present, but the evidence does not establish that failure risk is either fully shared or reliably diversified.
 
-### Table 13A. Mechanically defined deterioration
+### Table 13. Deterioration evidence
+
+#### Panel A. Mechanically defined deterioration
 
 | Evidence | Measure | Full sample | Composite worst decile |
 | --- | --- | ---: | ---: |
@@ -660,7 +662,7 @@ Two independent sets that each contain 10 per cent of the observations have a me
 | Public predictor returns | Median overlap of component-specific worst return deciles | 9.1% | Not applicable |
 | Public predictor returns | Median overlap of component-specific worst drawdown deciles | 6.3% | Not applicable |
 
-### Table 13B. Public deterioration overlap relative to chance
+#### Panel B. Public deterioration overlap relative to chance
 
 | Tail definition | Observed median overlap | Mechanical independence benchmark | Permutation median | Permutation 95% range | One-sided permutation p |
 | --- | ---: | ---: | ---: | ---: | ---: |
@@ -897,7 +899,7 @@ The author and Guerrieri Capital Ltd may conduct further research using concepts
 
 The source characteristic taxonomy and public predictor portfolio files are available from the Open Asset Pricing project at <https://www.openassetpricing.com/>. The archived December 2024 Fama-French factor files are available from Kenneth French's data library at <https://mba.tuck.dartmouth.edu/pages/faculty/ken.french/data_library_202412_archive.html>.
 
-The local security-level panel cannot be redistributed because it combines public definitions with data licensed to and maintained by the author. Reproducibility materials are deposited at <https://github.com/RenatoGuerrieri/signal-library-to-portfolio>. The repository contains the frozen specification, recorded corrections, calculation code, aggregate results, challenge tests, figures and a claim and evidence register. It excludes security-level prices, scores, target weights, security identifiers and current signal output.
+The local security-level panel cannot be redistributed because it combines public definitions with data licensed to and maintained by the author. Reproducibility materials are deposited at <https://github.com/RenatoGuerrieri/signal-library-to-portfolio>. The evidence set accompanying this version is preserved as release `v1.0.0` at <https://github.com/RenatoGuerrieri/signal-library-to-portfolio/releases/tag/v1.0.0>. The release record states the exact target commit and file hashes. The repository contains the frozen specification, recorded corrections, calculation code, aggregate results, challenge tests, figures and a claim and evidence register. It excludes security-level prices, scores, target weights, security identifiers and current signal output.
 
 ## Declaration of Generative AI and AI-Assisted Technologies in Manuscript Preparation
 
